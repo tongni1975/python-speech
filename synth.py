@@ -55,6 +55,13 @@ s.replace(
     r"from google.cloud.speech_\1.gapic import speech_client as speech_\1",
 )
 
+# Escape '_' in docstrings
+s.replace(
+   "google/cloud/**/*_pb2.py",
+   """\_$""",
+   """\_""",
+)
+
 # ----------------------------------------------------------------------------
 # Add templated files
 # ----------------------------------------------------------------------------

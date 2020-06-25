@@ -2248,7 +2248,7 @@ RecognitionConfig = _reflection.GeneratedProtocolMessageType(
           Required. The language of the supplied audio as a `BCP-47
           <https://www.rfc-editor.org/rfc/bcp/bcp47.txt>`__ language
           tag. Example: “en-US”. See `Language Support
-          <https://cloud.google.com/speech-to-text/docs/languages>`__
+          <https://cloud.google.com/speech-to-text/docs/languages>`_\_
           for a list of the currently supported language codes.
       max_alternatives:
           Maximum number of recognition hypotheses to be returned.
@@ -2642,7 +2642,7 @@ StreamingRecognitionResult = _reflection.GeneratedProtocolMessageType(
           channel. For audio_channel_count = N, its output values can
           range from ‘1’ to ‘N’.
       language_code:
-          The `BCP-47 <https://www.rfc-editor.org/rfc/bcp/bcp47.txt>`__
+          The `BCP-47 <https://www.rfc-editor.org/rfc/bcp/bcp47.txt>`_\_
           language tag of the language in this result. This language
           code was detected to have the most likelihood of being spoken
           in the audio.

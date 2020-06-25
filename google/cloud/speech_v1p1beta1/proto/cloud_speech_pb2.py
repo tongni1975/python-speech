@@ -2457,7 +2457,7 @@ RecognitionConfig = _reflection.GeneratedProtocolMessageType(
           Required. The language of the supplied audio as a `BCP-47
           <https://www.rfc-editor.org/rfc/bcp/bcp47.txt>`__ language
           tag. Example: “en-US”. See `Language Support
-          <https://cloud.google.com/speech-to-text/docs/languages>`__
+          <https://cloud.google.com/speech-to-text/docs/languages>`_\_
           for a list of the currently supported language codes.
       alternative_language_codes:
           A list of up to 3 additional `BCP-47 <https://www.rfc-
